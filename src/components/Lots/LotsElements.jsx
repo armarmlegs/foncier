@@ -34,9 +34,19 @@ box-shadow: black;
 }`
 
 export const CardHeading = styled.h1`
-font-size: 25px;
+font-size: 30px;
 text-align:center;
-margin-bottom:5rem;`
+margin-bottom:5rem;
+text-decoration: underline;
+text-underline-offset: 7px;
+text-decoration-thickness:1px;
+
+&:hover{
+    /* background: #01BF71; */
+    transition:0.2s ease-in-out;
+    transform : scale(1.01);
+    
+}`
 
 export const CardTitle = styled.div`
 font-weight:300px;
