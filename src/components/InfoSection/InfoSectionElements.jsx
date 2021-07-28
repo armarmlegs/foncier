@@ -66,7 +66,7 @@ max-width:440px;
 margin-bottom:35px;
 font-size:18px;
 line-height:24px;
-color:${({lightText}) =>(lightText ? "#b7b7a4" : "#fff" )};
+color:${({lightTextDesc}) =>(lightTextDesc ? "#000" : "#fff" )};
 `
 
 export const ImgWrapper = styled.div`

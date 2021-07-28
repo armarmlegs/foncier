@@ -3,7 +3,7 @@ export const homeObjOne = {
   primary: false,
   imgStart: "",
   lightTopLine: false,
-  lightTextDesc: true,
+  lightTextDesc: false,
   topLine: "Foncière Truffaut",
   lightText: true,
   headLine:
