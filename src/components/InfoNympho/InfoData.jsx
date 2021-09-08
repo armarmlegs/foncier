@@ -7,7 +7,7 @@ export const Who = {
       buttonLabel:'Nous Contacter',
       buttonLink:'/Contact',
       imgStart:true,
-      img: require('../../images/pexels-george-becker-129494.jpg').default,
+      img: require('../../Images/pexels-george-becker-129494.jpg').default,
       alt:'smthing',
       
       
