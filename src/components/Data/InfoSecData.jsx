@@ -10,7 +10,7 @@ export const homeObjOne = {
     "les rois de la choucroute, number one, tu peux pas test, c est du gros gros niveaux.",
   description: "hey ici on decrit de maniere succinte l operation",
   buttonLabel: "Opérations",
-  img: require("../../images/undraw_under_construction_46pa.svg").default,
+  img: require("../../Images/undraw_under_construction_46pa.svg").default,
   alt: "img",
   start: true,
 };
@@ -27,7 +27,7 @@ export const homeObjTwo = {
       "les rois de la choucroute, number one, tu peux pas test, c est du gros gros niveaux.",
     description: "hey ici on decrit de maniere succinte l operation",
     buttonLabel: "Opérations",
-    img: require("../../images/undraw_under_construction_46pa.svg").default,
+    img: require("../../Images/undraw_under_construction_46pa.svg").default,
     alt: "img",
     start: true,
 };
