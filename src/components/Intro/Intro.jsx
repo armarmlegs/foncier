@@ -1,11 +1,11 @@
 import React from "react";
 
-import {
-  IntroBg,
-  IntroContainer,
-  VideoBg,
+// import {
+//   IntroBg,
+//   IntroContainer,
+//   VideoBg,
  
-} from "./IntroElements";
+// } from "./IntroElements";
 import Video from "../../videos/Vidéo Foncière/Fonciere Signature.mp4";
 
 
