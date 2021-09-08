@@ -10,7 +10,7 @@ import {
   NavMenu,
   NavItemBtn,
 } from "./NavbarElements";
-import logo from "../../images/Logo_Fonciere_Truffaut.png";
+import logo from "../../Images/Logo_Fonciere_Truffaut.png";
 import { FaTimes, FaBars } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 import { Button } from "../Button";
