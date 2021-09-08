@@ -5,7 +5,7 @@ import {
   IntroContainer,
   VideoBg,
  
-} from "./introElements";
+} from "./IntroElements";
 import Video from "../../videos/Vidéo Foncière/Fonciere Signature.mp4";
 
 
