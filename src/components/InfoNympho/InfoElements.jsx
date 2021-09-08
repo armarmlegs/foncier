@@ -53,7 +53,7 @@ export const Column2 = styled.div`
 export const TextWrapper = styled.div`
   max-width: 540px;
   padding-top: 0;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 `;
 
 export const TopLine = styled.p`
@@ -64,6 +64,7 @@ export const TopLine = styled.p`
   letter-spacing: 1.4px;
   text-transform: uppercase;
   margin-bottom: 16px;
+ 
 `;
 
 export const Heading = styled.h1`

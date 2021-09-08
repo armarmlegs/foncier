@@ -15,8 +15,6 @@ font-size:25px;
 position:sticky;
 top:0;
 z-index:999;
-
-
 `
 
 export const NavContainer = styled(Container)`
@@ -112,7 +110,7 @@ width:100%;
 `
 
 
-export const NavLinks = styled(LinkS)`
+export const NavLinks = styled(Link)`
 
 color:#000;
 display:flex;

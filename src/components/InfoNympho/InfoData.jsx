@@ -3,7 +3,7 @@ export const Who = {
     topLine: "Qui sommes nous ?",
     headLine: "Alex get the dirty Money ",
     description:
-      "Un marchand de biens est une personne dont l'activité professionnelle est d'acheter et de vendre des biens immobiliers : immeubles, maisons, fonds de commerce, logements ou parts de sociétés immobilières type SCI. Le marchand de biens se distingue de l'agent immobilier en étant le propriétaire du bien qu'il vend ou revend, alors qu'un agent immobilier n'est qu'un intermédiaire entre un vendeur et un acheteur d'un bien immobilier. ",
+   " Foncière Truffaut est un promoteur immobilier proposant des logements suite à des opérations de marchands de biens (rénovation, réhabilitation, ou transformation en logements) ou bien des programmes neufs.        Fondé en 2014 par Alexandre Queiroz, Foncière Truffaut a la particularité d’effectuer des programmes immobiliers vendus achevés. Cette orientation permet une forte application architecturale et technique, avec l’aide de différents partenaires lors de l’ensemble du process : architectes, bureau d’études, bureau de contrôle et entreprises.Ainsi les biens immobiliers proposés sont pensés dans les moindres détails en optimisant au maximum les espaces selon les modes de vie contemporain, en choisissant des matériaux premium pour un bien être optimal et en proposant la meilleure solution pour une qualité énergétique performante tout en respectant l’environnement.",
       buttonLabel:'Nous Contacter',
       buttonLink:'/Contact',
       imgStart:true,

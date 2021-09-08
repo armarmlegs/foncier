@@ -15,7 +15,7 @@ import {
   ContactInput,
   ContactArea,
 } from "./ContactElements";
-import background from "../../images/pexels-george-becker-129494.jpg"
+import background from "../../images/Photos Site Foncière/Jules-Ferry/2ème étage/IMG_2707.jpg"
 import {Button2} from "../Button2";
 const serviceId = "service_zbztet6";
 const templateId = "template_xsdfrjk";

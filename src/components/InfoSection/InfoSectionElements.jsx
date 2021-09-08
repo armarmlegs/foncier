@@ -5,6 +5,7 @@ color: #000;
 padding:160px 0;
 background: ${({ lightBg }) => (lightBg ? '#fff' : "black") };
 
+
 `
 
 
