@@ -1,6 +1,6 @@
-import product1 from '../../images/pexels-george-becker-129494.jpg';
-import product2 from '../../images/pexels-matheus-viana-5617611.jpg';
-import product3 from "../../images/pexels-matheus-viana-5617611.jpg";
+import product1 from '../../Images/pexels-george-becker-129494.jpg';
+import product2 from '../../Images/pexels-matheus-viana-5617611.jpg';
+import product3 from "../../Images/pexels-matheus-viana-5617611.jpg";
 
 export const LotsData = [
     
