@@ -48,3 +48,4 @@ export const IntroBtnWrapper = styled.div`
   flex-direction: column;
   align-items: center;
 `;
+console.log("hello")
