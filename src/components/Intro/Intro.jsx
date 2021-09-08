@@ -6,7 +6,7 @@ import {
   VideoBg,
  
 } from "./IntroElements";
-import Video from "../../videos/Vidéo Foncière/Fonciere Signature.mp4";
+import Video from "../../Videos/Vidéo Foncière/Fonciere Signature.mp4";
 
 
 const Intro = () => {
