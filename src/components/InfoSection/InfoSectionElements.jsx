@@ -84,3 +84,13 @@ padding-right: 0;
   vertical-align: middle;
   display: inline-block;
   max-height: 500px;`
+
+
+export const VideoBg = styled.video`
+padding-right: 0;
+height:100%;
+  border: 0;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+  max-height: 100%;`

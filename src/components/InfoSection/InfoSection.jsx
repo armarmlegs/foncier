@@ -1,11 +1,12 @@
 import React from 'react'
 import {Button} from '../Button'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+// import Video from '../../Images/Videos/Video Fonciere/Fonciere Signature.mp4'
 
-import {InfoSec, InfoRow, InfoColumn, TextWrapper, TopLine, Heading, Subtitle, ImgWrapper, Img} from './InfoSectionElements'
+import {InfoSec, InfoRow, InfoColumn, TextWrapper, TopLine, Heading, Subtitle, ImgWrapper, Img, VideoBg} from './InfoSectionElements'
 import { Container } from '../../globalStyles'
 
-const InfoSection = ({lightBg, imgStart, lightTopLine, lightTextDesc, topLine, lightText,headLine, description, buttonLabel, img, alt, start}) => {
+const InfoSection = ({lightBg, imgStart, lightTopLine, lightTextDesc, topLine, lightText,headLine, description, buttonLabel, img, alt, start, video}) => {
     return (
         <>
         <InfoSec lightBg={lightBg} id="operations">
@@ -16,22 +17,23 @@ const InfoSection = ({lightBg, imgStart, lightTopLine, lightTextDesc, topLine, l
                         <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                         <Heading lightText={lightText}>{headLine}</Heading>
                         <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-                        <Link >
-                            <Button to="/Operations"  duration={500}
-                  // spy={"true"}
-                  exact="true"
-                  offset={-20}>{buttonLabel}</Button>
-                        </Link>
+                        
 
                     </TextWrapper>
                 </InfoColumn>
                 <InfoColumn>
                 <ImgWrapper start={start}>
                 <Img src={img} alt={alt}/>
+                <VideoBg autoPlay muted loop src={video} />
                 </ImgWrapper>
                 </InfoColumn>
                 </InfoRow>
-
+                <Link >
+                            <Button to="/Operations"  duration={500}
+                  // spy={"true"}
+                  exact="true"
+                  offset={-20}>{buttonLabel}</Button>
+                        </Link>
 
             </Container>
             

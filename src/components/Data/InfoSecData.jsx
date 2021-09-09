@@ -48,7 +48,8 @@ export const homeObjThree = {
     Au R+2 : 1 appartement de 72m² de 4 pièces
     Au R+3 / R+4 / R+5 : 1 appartement en triplex de 150m² + balcon + terrasse`,
     buttonLabel: "Opérations",
-    img: require("../../Images/undraw_under_construction_46pa.svg").default,
-    alt: "img",
+    img: "",
+    video: require("../../Images/Videos/Video Fonciere/Fonciere Truffaut.mp4").default,
+    alt: "",
     start: true,
 };
