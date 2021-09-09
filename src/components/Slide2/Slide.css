@@ -1,0 +1,39 @@
+@import "react-slideshow-image/dist/styles.css";
+
+.containerSlide{
+    position: relative;
+ 
+    border:1px solid black;
+    width:100%;
+    
+ 
+   
+}
+
+.coup{
+    height:10%;
+    width:10%;
+    background-size:cover;
+
+   
+  
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+
+    
+  
+};
+
+.each-slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 400px;
+
+
+}

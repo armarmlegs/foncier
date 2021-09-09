@@ -33,10 +33,10 @@ const NavBar2 = () => {
             </MobileIcon>
             <NavMenu onClick={handleClick} click={click}>
               <NavItems>
-                <NavLinks onClick={handleClick} click={click} to="about">Accueil</NavLinks>
+                <NavLinks onClick={handleClick} click={click} to="/">Accueil</NavLinks>
               </NavItems>
               <NavItems>
-                <NavLinks onClick={handleClick} click={click} to="operations">Opérations</NavLinks>
+                <NavLinks onClick={handleClick} click={click} to="Operations">Opérations</NavLinks>
               </NavItems>
               <NavItemBtn to="/Contact">
 

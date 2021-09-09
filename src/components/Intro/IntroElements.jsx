@@ -4,13 +4,14 @@ export const IntroContainer = styled.div`
   display: flex;
   justify-self: center;
   align-items: center;
+  
   padding: 0 30px;
-  height: 800px;
+  height: 400px;
   position: relative;
   z-index: 1;
   @media screen and (max-width: 768px) {
-   height:300px;
-   margin-top:0;
+   height:400px;
+   /* margin-top:0; */
    
   }
 `;
@@ -28,7 +29,7 @@ export const IntroBg = styled.div`
 
 export const VideoBg = styled.video`
   width: 100%;
-  height: 100%;
+  height: 400px;
   object-fit: cover;
   background: #fff;
   @media screen and (max-width: 768px) {
@@ -39,13 +40,4 @@ export const VideoBg = styled.video`
 
 
 
-
-export const IntroBtnWrapper = styled.div`
- 
-
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-`;
 console.log("hello")

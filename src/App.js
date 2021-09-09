@@ -2,7 +2,8 @@
 import { BrowserRouter as Router , Switch, Route} from 'react-router-dom';
 import GlobalStyle from './globalStyles';
 import Home from "./Pages/Home"
-import ScrollTop from "./components/ScrollTop"
+import ScrollTop from "./components/ScrollTop";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
