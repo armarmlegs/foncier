@@ -6,7 +6,6 @@ import React from "react";
 import NavBar from "../components/navbar/NavBar";
 import Intro from "../components/Intro/Intro";
 import Epilogue from "../components/Intro2/Epilogue";
-import Slider from "../components/slider/slider";
 import Sliderz from "../components/Slide2/Slide2";
 // import { SliderData } from '../components/slider/SliderData';
 

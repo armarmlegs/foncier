@@ -1,17 +1,15 @@
 import React from "react";
 
-import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
-import { GoLocation } from "react-icons/go";
-import { AiTwotonePhone } from "react-icons/ai";
+import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa"
 import logo from "../../Images/Logo_Fonciere_Truffaut.png";
 import {
   FooterContainer,
   FooterWrapper,
-  FooterLinksContainer,
-  FooterLinksWrapper,
-  FooterLinkItems,
-  FooterLinkTitle,
-  FooterLink,
+  // FooterLinksContainer,
+  // FooterLinksWrapper,
+  // FooterLinkItems,
+  // FooterLinkTitle,
+  // FooterLink,
   SocialMedia,
   SocialMediaWrapper,
   SocialLogo,
@@ -19,7 +17,7 @@ import {
   SocialIcons,
   SocialIconLink,
   FooterLogo,
-  FooterAddy,
+  // FooterAddy,
 } from "./FooterElements";
 import { Container } from "../../globalStyles";
 

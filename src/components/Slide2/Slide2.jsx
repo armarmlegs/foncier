@@ -1,12 +1,11 @@
 import React from "react";
-import { Slide } from "react-slideshow-image";
+
 import img1 from "../../Images/Photos Site Fonciere/Lacroix/IMG_4047.JPG"
 import img2 from "../../Images/Photos Site Fonciere/Malesherbes/IMG_1419.jpg";
 import img3 from "../../Images/Photos Site Fonciere/Jules-Ferry/3-4-5ème étage Triplex/20200618_144307.jpg";
 import "bootstrap/dist/css/bootstrap.css";
 import {Carousel} from 'react-bootstrap'
 import "./Slide.css";
-import { Link } from "react-router-dom";
 import {Button} from "../Button";
 import {LinkContainer} from './Slide2Elements'
 

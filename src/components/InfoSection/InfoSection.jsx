@@ -1,7 +1,7 @@
 import React from 'react'
 import {Button} from '../Button'
-import { Link } from 'react-router-dom';
-// import Video from '../../Images/Videos/Video Fonciere/Fonciere Signature.mp4'
+
+
 
 import {InfoSec, InfoRow, InfoColumn, TextWrapper, TopLine, Heading, Subtitle, ImgWrapper, Img, VideoBg, ButtonWraps} from './InfoSectionElements'
 import { Container } from '../../globalStyles'
