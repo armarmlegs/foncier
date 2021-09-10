@@ -18,6 +18,7 @@ export const Button = styled(Link)`
   justify-content: center;
   text-decoration: none;
   font-size: 40px;
+  border:1px solid black;
 
   height: 30px;
 
@@ -32,5 +33,6 @@ export const Button = styled(Link)`
 
   @media screen and (max-width: 960px) {
     width: 20%;
+    margin-top:40px;
   }
 `;
