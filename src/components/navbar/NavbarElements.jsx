@@ -6,13 +6,17 @@ import { Link as LinkS } from "react-scroll";
 
 
 export const Navbar = styled.div`
+
+margin-bottom:10px;
+
 background:#6b705c;
+width:100%;
 height:80px;
 display:flex;
 justify-content:center;
 align-items:center;
 font-size:25px;
-position:sticky;
+position:fixed;
 top:0;
 z-index:999;
 `

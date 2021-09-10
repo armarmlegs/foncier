@@ -10,9 +10,10 @@ export const homeObjOne = {
     "Lacroix 2014-2015 Paris 17°",
   description: "Réhabilitation d’un studio photo de 30m² en un appartement 2 pièces, vendus achevés, clés en main.",
   buttonLabel: "Détails",
-  img: require("../../Images/undraw_under_construction_46pa.svg").default,
+  img: require('../../Images/Photos Site Fonciere/Lacroix/IMG_4047.JPG').default,
   alt: "img",
   start: true,
+  buttonTo:"/Operations/lacroix"
 };
 
 export const homeObjTwo = {
@@ -27,9 +28,10 @@ export const homeObjTwo = {
       "Malesherbes 2015-2016 Paris 8",
     description: "Transformation d’une surface de bureaux de 250m² en 1 logement de 7 pièces",
     buttonLabel: "Détails",
-    img: require("../../Images/undraw_under_construction_46pa.svg").default,
+    img: require("../../Images/Photos Site Fonciere/Malesherbes/IMG_1433.jpg").default,
     alt: "img",
     start: true,
+    buttonTo:"/Operations/Malsherbes"
 };
 export const homeObjThree = {
     lightBg: true,
@@ -48,8 +50,9 @@ export const homeObjThree = {
     Au R+2 : 1 appartement de 72m² de 4 pièces
     Au R+3 / R+4 / R+5 : 1 appartement en triplex de 150m² + balcon + terrasse`,
     buttonLabel: "Détails",
-    img: "",
+  
     video: require("../../Images/Videos/Video Fonciere/Fonciere Truffaut.mp4").default,
     alt: "",
     start: true,
+    buttonTo:"/Operations/JulesFerry"
 };

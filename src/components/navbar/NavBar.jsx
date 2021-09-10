@@ -14,6 +14,7 @@ import logo from "../../Images/Logo_Fonciere_Truffaut.png";
 import { FaTimes, FaBars } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 import { Button } from "../Button";
+import { Container } from "../../globalStyles";
 
 const NavBar2 = () => {
   const [click, setClick] = useState(false);
@@ -22,6 +23,7 @@ const NavBar2 = () => {
 
   return (
     <>
+    <Container>
       <IconContext.Provider value={{ color: "000" }}>
         <Navbar>
           <NavContainer>
@@ -48,6 +50,7 @@ const NavBar2 = () => {
           </NavContainer>
         </Navbar>
       </IconContext.Provider>
+      </Container>
     </>
   );
 };

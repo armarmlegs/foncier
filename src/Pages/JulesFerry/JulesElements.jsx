@@ -55,11 +55,12 @@ export const OpColumn2 = styled.div`
 
 export const OpTextWrapper = styled.div`
   max-width: auto;
-  padding-top: 0;
+  padding-top: 70px;
   padding-bottom: 30px;
 `;
 
 export const OpTopLine = styled.p`
+margin-top:40px;
   color: #6b705c;
   font-size: 16px;
   line-height: 16px;
@@ -71,6 +72,7 @@ export const OpTopLine = styled.p`
 `;
 
 export const OpHeading = styled.h1`
+
   margin-bottom: 24px;
   font-size: 48px;
   line-height: 1.1;

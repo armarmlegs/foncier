@@ -24,7 +24,7 @@ const GridGallery = ({ dataImg }) => {
   return (
     <Container>
       {/* <GridContainer> */}
-      <div className={ model ? "model open" : "model" }>
+      <div className={ model ? "model open" : "model" } onClick={()=>{setModel(false)}}>
         <img src={tempImgSrc} />
         <IconWrapper>
         <FaWindowClose onClick={()=>{setModel(false)}} />
@@ -32,7 +32,7 @@ const GridGallery = ({ dataImg }) => {
 
 
       </div>
-      <ImageList rowHeight={200} gap={4} className="gallery">
+      <ImageList rowHeight={200} gap={6} className="gallery">
         {dataImg.map((item) => (
           <ImageListItem
             className="pics"

@@ -21,13 +21,15 @@ import {
   FooterLogo,
   FooterAddy,
 } from "./FooterElements";
+import { Container } from "../../globalStyles";
 
 const Footer = () => {
   return (
     <>
+    <Container>
       <FooterContainer>
         <FooterWrapper>
-          <FooterLinksContainer>
+          {/* <FooterLinksContainer>
             <FooterLinksWrapper>
               <FooterLinkItems>
                 <FooterLinkTitle> Categories</FooterLinkTitle>
@@ -38,10 +40,10 @@ const Footer = () => {
               <FooterLinkItems>
                 <FooterLinkTitle> Addresse</FooterLinkTitle>
                 <FooterAddy> <GoLocation /> 17 rue Truffaud, 75017, Paris, France </FooterAddy>
-                <FooterAddy> <AiTwotonePhone /> 06 XX XX XX XX </FooterAddy>
+               
               </FooterLinkItems>
             </FooterLinksWrapper>
-          </FooterLinksContainer>
+          </FooterLinksContainer> */}
           <SocialMedia>
             <SocialMediaWrapper>
               <SocialLogo to="/">
@@ -86,6 +88,7 @@ const Footer = () => {
           </SocialMedia>
         </FooterWrapper>
       </FooterContainer>
+      </Container>
     </>
   );
 };

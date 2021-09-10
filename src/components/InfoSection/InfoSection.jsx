@@ -3,14 +3,15 @@ import {Button} from '../Button'
 import { Link } from 'react-router-dom';
 // import Video from '../../Images/Videos/Video Fonciere/Fonciere Signature.mp4'
 
-import {InfoSec, InfoRow, InfoColumn, TextWrapper, TopLine, Heading, Subtitle, ImgWrapper, Img, VideoBg} from './InfoSectionElements'
+import {InfoSec, InfoRow, InfoColumn, TextWrapper, TopLine, Heading, Subtitle, ImgWrapper, Img, VideoBg, ButtonWraps} from './InfoSectionElements'
 import { Container } from '../../globalStyles'
 
-const InfoSection = ({lightBg, imgStart, lightTopLine, lightTextDesc, topLine, lightText,headLine, description, buttonLabel, img, alt, start, video}) => {
+const InfoSection = ({lightBg,buttonTo ,imgStart, lightTopLine, lightTextDesc, topLine, lightText,headLine, description, buttonLabel, img, alt, start, video}) => {
     return (
         <>
+          <Container>
         <InfoSec lightBg={lightBg} id="operations">
-            <Container>
+          
                 <InfoRow imgStart={imgStart}>
                 <InfoColumn>
                     <TextWrapper>
@@ -28,16 +29,17 @@ const InfoSection = ({lightBg, imgStart, lightTopLine, lightTextDesc, topLine, l
                 </ImgWrapper>
                 </InfoColumn>
                 </InfoRow>
-                <Link >
-                            <Button to="/Operations"  duration={500}
+                <ButtonWraps >
+                            <Button to={buttonTo}  
                   // spy={"true"}
                   exact="true"
                   offset={-20}>{buttonLabel}</Button>
-                        </Link>
+                        </ButtonWraps>
 
-            </Container>
+           
             
         </InfoSec>
+        </Container>
             
         </>
     )

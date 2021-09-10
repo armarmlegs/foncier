@@ -1,4 +1,5 @@
 import React from "react";
+import { Container } from "../../globalStyles";
 
 
 
@@ -14,6 +15,7 @@ import {
   ContactLabel,
   ContactInput,
   ContactArea,
+  ImageWrapper
 } from "./ContactElements";
 import background from "../../Images/Photos Site Fonciere/Jules-Ferry/2ème étage/IMG_2707.jpg"
 import {Button2} from "../Button2";
@@ -42,8 +44,11 @@ const Contact = () => {
 
 
   return (
+    <Container>
     <ContactWrapper>
+      <ImageWrapper>
       <ContactLeft src={background} />
+      </ImageWrapper>
       <ContactRight>
         <ContactH1> Contact</ContactH1>
         <ContactP>
@@ -62,6 +67,7 @@ const Contact = () => {
      
       </ContactRight>
     </ContactWrapper>
+    </Container>
   );
 };
 

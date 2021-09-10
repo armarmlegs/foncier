@@ -1,32 +1,50 @@
 import styled from "styled-components";
 
 export const ContactWrapper = styled.div`
-  display: flex;
-  width: 100vw;
-  height: 800px;
-  /* position:relative; */
-  /* z-index: -1; */
+ display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 1fr; 
+  gap: 4px 0px; 
+  grid-template-areas: 
+    ". ."; 
+  justify-items: center; 
+  width: 100%; 
+  height: 100%; 
+  max-width:1000px;
   @media screen and (max-width: 960px) {
-    width: 90%;
+    width: 100%;
+    height:1000px;
+   
 
     transition: 0.2s all ease;
-  }
+  } 
 `;
 
 export const ContactLeft = styled.img`
   position: relative;
-  width: 45vw;
-
+  
+width:100%;
   height: 100%;
   object-fit: cover;
+  
   /* top: 80; */
 
   @media screen and (max-width: 768px) {
-    width: 50%;
+    width: 200px;
+    
+    
+  }
+  @media screen and (max-width: 400px) {
+    width: 150px;
+    
+    
   }
 `;
 
 export const ContactRight = styled.div`
+/* border:1px solid black; */
+
+
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -34,12 +52,13 @@ export const ContactRight = styled.div`
   align-items: flex-start;
   align-content: stretch;
   width: 100%;
-  height: 1000px;
+  height: 100%;
   padding: 5rem 3.5rem;
   color: black;
 
   @media screen and (max-width: 768px) {
-    width: 100%;
+    width:220px;
+    
   }
 `;
 
@@ -76,6 +95,10 @@ export const ContactFormX = styled.form`
   position: relative;
   margin-top: 2rem;
   padding: 1rem 0;
+
+  @media screen and (max-width:765px){
+    
+  }
 `;
 export const ContactLabel = styled.label`
   text-transform: uppercase;
@@ -102,3 +125,13 @@ export const ContactArea = styled.textarea`
   resize: none;
   margin-bottom: 30px;
 `;
+
+export const ImageWrapper = styled.div`
+width:100%;
+/* border:1px solid black; */
+
+
+
+
+
+`

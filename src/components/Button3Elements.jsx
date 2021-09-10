@@ -16,9 +16,11 @@ justify-content: center;
 align-items:center;
 transition: all 0.2S ease-in-out;
 z-index:15;
+text-decoration: none;
 
 &:hover{
     background:${({primary})=>(primary ? '#fff' : '#01BF71')};
     transition: all 0.2S ease-in-out;
+    text-decoration: none;
 
 }`

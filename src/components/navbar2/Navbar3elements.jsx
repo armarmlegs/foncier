@@ -7,12 +7,13 @@ import { Link } from 'react-router-dom';
 
 export const Navbar = styled.div`
 background:#6b705c;
+width:100%;
 height:80px;
 display:flex;
 justify-content:center;
 align-items:center;
 font-size:25px;
-position:sticky;
+position:fixed;
 top:0;
 z-index:999;
 
@@ -124,6 +125,7 @@ padding:3rem 1rem;
 height:100%;
 &:hover {
     color:#FFF;
+    text-decoration: none;
 
 }
 

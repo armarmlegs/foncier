@@ -29,6 +29,7 @@ export const Button = styled(Link)`
   &:hover {
     transform: translateY(-2px);
     color: #fff;
+    text-decoration: none;
   }
 
   @media screen and (max-width: 960px) {

@@ -1,8 +1,10 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const InfoSec = styled.div`
 color: #000;
 padding:160px 0;
+width:100%;
 background: ${({ lightBg }) => (lightBg ? '#fff' : "black") };
 
 
@@ -71,19 +73,33 @@ color:${({lightTextDesc}) =>(lightTextDesc ? "#000" : "#fff" )};
 `
 
 export const ImgWrapper = styled.div`
- max-width: 555px;
+
+ /* max-width: 555px; */
   display: flex;
   justify-content: ${({ start }) => (start ? 'flex-start' : 'flex-end')};;
+  /* border:1px solid red; */
+
+  @media screen and (max-width:800px){
+    max-width:450px;
+    max-height:450px;
+  }
 `
 
 
 export const Img = styled.img`
+object-fit:cover;
 padding-right: 0;
   border: 0;
+  width:100%;
   max-width: 100%;
   vertical-align: middle;
-  display: inline-block;
-  max-height: 500px;`
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+  
+  max-height: 100%;
+  max-width:100%;`
 
 
 export const VideoBg = styled.video`
@@ -93,4 +109,14 @@ height:100%;
   max-width: 100%;
   vertical-align: middle;
   display: inline-block;
-  max-height: 100%;`
+  max-height: 100%;`;
+
+  export const ButtonWraps = styled(Link)`
+  padding-top:120px;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center
+  `

@@ -1,4 +1,18 @@
-import styled from "styled-components"
+import styled from "styled-components";
+import { Link } from "react-router-dom";
+
+
+export const LinkContainer = styled(Link)`
+display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+
+
+`
+
 
 export const SliderContainer = styled.div`
 

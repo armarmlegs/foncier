@@ -8,9 +8,9 @@ import {
   OpTopLine,
   OpRow,
 } from "./JulesElements";
-import {Pics} from '../../components/GridData';
+import {PicsJulesFerry} from '../../components/GridData';
 
-import React from "react";
+
 import { Container } from "../../globalStyles";
 
 const JulesFerry = () => {
@@ -42,7 +42,7 @@ const JulesFerry = () => {
         </OpRow>
       </Container>
 
-      <GridGallery dataImg={Pics} />
+      <GridGallery dataImg={PicsJulesFerry} />
     </>
   );
 };

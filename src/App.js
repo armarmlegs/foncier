@@ -13,6 +13,8 @@ import Footer from './components/Footer/Footer';
 import Operation from './Pages/Operation';
 import ContactPage from "./Pages/ContactPage"
 import JulesFerry from './Pages/JulesFerry/JulesFerry';
+import Lacroix from './Pages/Lacroix/Lacroix.jsx';
+import Malsherbes from './Pages/Malsherbes/Malsherbes';
 
 
 
@@ -27,6 +29,8 @@ function App() {
   <Route path="/Contact" exact component={ContactPage} />
   <Route path="/Operations" exact component={Operation} />
   <Route path="/Operations/JulesFerry" exact component={JulesFerry} />
+  <Route path="/Operations/Malsherbes" exact component={Malsherbes} />
+  <Route path="/Operations/Lacroix" exact component={Lacroix} />
 </Switch>
 <Footer />
   </Router>

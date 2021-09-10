@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Container } from "../../globalStyles";
 import {
   Navbar,
   NavContainer,
@@ -22,6 +23,7 @@ const Navbar3 = () => {
   const handleClick = () => setClick(!click);
     return (
         <>
+        <Container>
         <IconContext.Provider value={{ color: "000" }}>
           <Navbar>
             <NavContainer>
@@ -48,6 +50,7 @@ const Navbar3 = () => {
             </NavContainer>
           </Navbar>
         </IconContext.Provider>
+        </Container>
       </>
     )
 }
