@@ -3,7 +3,7 @@ import {Button} from '../Button'
 
 
 
-import {InfoSec, InfoRow, InfoColumn, TextWrapper, TopLine, Heading, Subtitle, ImgWrapper, Img, VideoBg, ButtonWraps} from './InfoSectionElements'
+import {InfoSec, InfoRow, InfoColumn, TextWrapper, TopLine, Heading, Subtitle, ImgWrapper, Img, ButtonWraps} from './InfoSectionElements'
 import { Container } from '../../globalStyles'
 
 const InfoSection = ({lightBg,buttonTo , lightTopLine, lightTextDesc, topLine, lightText,headLine, description, buttonLabel, img, alt, start, video}) => {
@@ -25,7 +25,7 @@ const InfoSection = ({lightBg,buttonTo , lightTopLine, lightTextDesc, topLine, l
                 <InfoColumn>
                 <ImgWrapper start={start}>
                 <Img src={img} alt={alt}/>
-                {/* <VideoBg autoPlay muted loop src={video} /> */}
+                
                 </ImgWrapper>
                 </InfoColumn>
                 </InfoRow>
