@@ -8,6 +8,7 @@ width:100%;
 background: ${({ lightBg }) => (lightBg ? '#fff' : "black") };
 
 
+
 `
 
 
@@ -20,6 +21,7 @@ flex-direction: ${({imgStart}) =>(imgStart ? 'row-reverse' : 'row')};
 `
 
 export const InfoColumn = styled.div`
+
 margin-bottom:15px;
 padding-right:15px;
 padding-left:15px;
@@ -37,6 +39,7 @@ flex-basis:50%;
 `
 
 export const TextWrapper = styled.div`
+
 max-width:540px;
 padding-top:0;
 padding-bottom:60px;
@@ -48,6 +51,7 @@ padding-bottom:60px;
 
 export const TopLine = styled.div`
 color:${({lightTopLine}) =>(lightTopLine ? '#a9B3C1' : '#eddcd2')};
+
 font-size:18px;
 line-height:16px;
 letter-spacing: 1.4px;
@@ -55,7 +59,8 @@ margin-bottom:16px;
 
 `
 
-export const Heading= styled.h1`    
+export const Heading= styled.h1`  
+  
 margin-bottom:24px;
 font-size:48px;
 margin-bottom:48px;
@@ -74,8 +79,10 @@ color:${({lightTextDesc}) =>(lightTextDesc ? "#000" : "#fff" )};
 
 export const ImgWrapper = styled.div`
 
+
  /* max-width: 555px; */
   display: flex;
+  max-height:450px;
   justify-content: ${({ start }) => (start ? 'flex-start' : 'flex-end')};;
   /* border:1px solid red; */
 
@@ -87,6 +94,7 @@ export const ImgWrapper = styled.div`
 
 
 export const Img = styled.img`
+
 object-fit:cover;
 padding-right: 0;
   border: 0;
@@ -104,6 +112,7 @@ padding-right: 0;
 
 export const VideoBg = styled.video`
 padding-right: 0;
+
 height:100%;
   border: 0;
   max-width: 100%;
@@ -112,6 +121,7 @@ height:100%;
   max-height: 100%;`;
 
   export const ButtonWraps = styled(Link)`
+  
   padding-top:120px;
   display: flex;
 	flex-direction: row;

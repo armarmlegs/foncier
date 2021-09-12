@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar3 from "../../components/navbar2/Navbar3";
+import Navbar3 from "../../components/navbar/NavBar";
 import GridGallery from "../../components/GridGallery";
 import {
   OpColumn1,

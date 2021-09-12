@@ -6,13 +6,13 @@ import {Button} from '../Button'
 import {InfoSec, InfoRow, InfoColumn, TextWrapper, TopLine, Heading, Subtitle, ImgWrapper, Img, VideoBg, ButtonWraps} from './InfoSectionElements'
 import { Container } from '../../globalStyles'
 
-const InfoSection = ({lightBg,buttonTo ,imgStart, lightTopLine, lightTextDesc, topLine, lightText,headLine, description, buttonLabel, img, alt, start, video}) => {
+const InfoSection = ({lightBg,buttonTo , lightTopLine, lightTextDesc, topLine, lightText,headLine, description, buttonLabel, img, alt, start, video}) => {
     return (
         <>
           <Container>
         <InfoSec lightBg={lightBg} id="operations">
           
-                <InfoRow imgStart={imgStart}>
+                <InfoRow >
                 <InfoColumn>
                     <TextWrapper>
                         <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
@@ -25,7 +25,7 @@ const InfoSection = ({lightBg,buttonTo ,imgStart, lightTopLine, lightTextDesc, t
                 <InfoColumn>
                 <ImgWrapper start={start}>
                 <Img src={img} alt={alt}/>
-                <VideoBg autoPlay muted loop src={video} />
+                {/* <VideoBg autoPlay muted loop src={video} /> */}
                 </ImgWrapper>
                 </InfoColumn>
                 </InfoRow>

@@ -50,8 +50,8 @@ export const homeObjThree = {
     Au R+2 : 1 appartement de 72m² de 4 pièces
     Au R+3 / R+4 / R+5 : 1 appartement en triplex de 150m² + balcon + terrasse`,
     buttonLabel: "Détails",
-  
-    video: require("../../Images/Videos/Video Fonciere/Fonciere Truffaut.mp4").default,
+    img: require("../../Images/Photos Site Fonciere/Jules-Ferry/Exterieurs/20200618_133929.jpg").default,
+   
     alt: "",
     start: true,
     buttonTo:"/Operations/JulesFerry"

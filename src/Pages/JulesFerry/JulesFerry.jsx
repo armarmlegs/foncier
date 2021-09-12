@@ -1,5 +1,7 @@
-import Navbar3 from "../../components/navbar2/Navbar3";
+import Navbar3 from "../../components/navbar/NavBar";
 import GridGallery from "../../components/GridGallery";
+import { VideoBg } from "./JulesElements";
+import Video from "../../Images/Videos/Video Fonciere/Fonciere Truffaut.mp4"
 import {
   OpColumn1,
   OpHeading,
@@ -40,6 +42,9 @@ const JulesFerry = () => {
             </OpTextWrapper>
           </OpColumn1>
         </OpRow>
+        <div>
+        <VideoBg autoPlay muted loop src={Video} />
+        </div>
       </Container>
 
       <GridGallery dataImg={PicsJulesFerry} />

@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import ImageList from "@material-ui/core/ImageList";
 import ImageListItem from "@material-ui/core/ImageListItem";
 import { Container } from "../globalStyles";
-import { IconWrapper } from "./GridElements";
-import { FaWindowClose } from "react-icons/fa";
+// import { IconWrapper } from "./GridElements";
+// import { FaWindowClose } from "react-icons/fa";
 
 import "./grid.css";
 
@@ -25,9 +25,9 @@ const GridGallery = ({ dataImg }) => {
       {/* <GridContainer> */}
       <div className={ model ? "model open" : "model" } onClick={()=>{setModel(false)}}>
         <img src={tempImgSrc} alt='helloKitty' />
-        <IconWrapper>
+        {/* <IconWrapper>
         <FaWindowClose onClick={()=>{setModel(false)}} />
-        </IconWrapper>
+        </IconWrapper> */}
 
 
       </div>

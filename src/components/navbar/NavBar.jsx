@@ -38,7 +38,7 @@ const NavBar2 = () => {
                 <NavLinks onClick={handleClick} click={click} to="/">Accueil</NavLinks>
               </NavItems>
               <NavItems>
-                <NavLinks onClick={handleClick} click={click} to="Operations">Opérations</NavLinks>
+                <NavLinks onClick={handleClick} click={click} to="/Operations">Opérations</NavLinks>
               </NavItems>
               <NavItemBtn to="/Contact">
 
