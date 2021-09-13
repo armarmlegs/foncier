@@ -17,6 +17,7 @@ const Home = () => {
 
       <Epilogue />
       <Sliderz />
+      {/* <InfoSection {...homeObjOne}/> */}
 
       {/* <Slider slides={SliderData} /> */}
       {/* <Info {...Who}/>

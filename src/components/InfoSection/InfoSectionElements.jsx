@@ -2,10 +2,11 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const InfoSec = styled.div`
+
 color: #000;
 padding:160px 0;
 
-width:100%;
+width:auto;
 background: ${({ lightBg }) => (lightBg ? '#fff' : "black") };
 
 
@@ -15,7 +16,7 @@ background: ${({ lightBg }) => (lightBg ? '#fff' : "black") };
 
 export const InfoRow = styled.div`
 display:flex;
-margin: 0 -15px -15px -15px;
+/* margin: 0 -15px -15px -15px; */
 flex-wrap:wrap;
 align-items:center;
 flex-direction: ${({imgStart}) =>(imgStart ? 'row-reverse' : 'row')};

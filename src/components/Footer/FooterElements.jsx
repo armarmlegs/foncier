@@ -3,11 +3,17 @@ import { Link } from "react-router-dom";
 
 export const FooterContainer = styled.footer`
   background-color: #6b705c;
+  width:100%;
   height:90px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+
+
+  @media screen and (max-width:750px){
+    height:100px;
+  }
   
 `;
 
@@ -130,7 +136,7 @@ export const WebsiteRights = styled.small`
   padding-left: 20px;
   text-align:center;
   width: 100%;
-
+ 
 
   @media screen and (max-width: 860px) {
     display: flex;
@@ -141,8 +147,9 @@ export const WebsiteRights = styled.small`
 
   @media screen and (max-width: 650px) {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    font-size:9px;
     width: 200px;
   }
 `;
@@ -152,33 +159,21 @@ export const SocialIcons = styled.div`
   justify-content: space-between;
   align-items: center;
   width: 240px;
-
-  @media screen and (max-width: 860px) {
-  
-    width: 140px;
-  }
 `;
 
 export const SocialIconLink = styled.a`
   color: #000;
-  font-size: 24px;
+  font-size: 14px;
 
   &:hover {
     color: #fff;
     transition: 0.3s ease-in-out;
   }
-
-  @media screen and (max-width: 860px) {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 30px;
-  }
 `;
 
 export const FooterLogo = styled.img`
   margin-left: 0;
-  width: 240px;
+  width: 140px;
 
   &:hover {
     color: #01bf71;

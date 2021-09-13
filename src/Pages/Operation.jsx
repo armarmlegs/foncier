@@ -15,9 +15,9 @@ const Operation = () => {
       <NavBar />
 
 
-      <InfoSection {...homeObjThree} />
-      <InfoSection {...homeObjOne} />
-      <InfoSection {...homeObjTwo} />
+      <InfoSection {...homeObjThree} /> 
+      <InfoSection {...homeObjOne} /> 
+       <InfoSection {...homeObjTwo} /> 
     </div>
   );
 };

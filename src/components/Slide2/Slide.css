@@ -25,6 +25,7 @@
   object-fit: cover;
  
   width:100%;
+  max-width:800px;
   height: 700px;
   /* padding: 20; */
 
