@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import {
+  YoungDiv,
   Navbar,
   NavContainer,
   NavLogo,
@@ -33,7 +34,9 @@ const NavBar2 = () => {
             <MobileIcon onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
             </MobileIcon>
+             
             <NavMenu onClick={handleClick} click={click}>
+            <YoungDiv>
               <NavItems>
                 <NavLinks onClick={handleClick} click={click} to="/">Accueil</NavLinks>
               </NavItems>
@@ -46,6 +49,7 @@ const NavBar2 = () => {
                   Contact
                 </Button>
                 </NavItemBtn>
+                </YoungDiv>
             </NavMenu>
           </NavContainer>
         </Navbar>
