@@ -36,7 +36,8 @@ export const VideoBg = styled.video`
   object-fit: cover;
   background: #fff;
   @media screen and (max-width: 768px) {
-   object-fit:scale-down;
+   /* object-fit:scale-down; */
+   
    
   }
 `;
