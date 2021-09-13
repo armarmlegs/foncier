@@ -146,7 +146,7 @@ width:100%;
 height:600px;
 
 display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: center;
