@@ -14,6 +14,7 @@ export const EpiContainer = styled.div`
 export const EpiWrapper = styled.div`
   display: flex;
   flex-direction: column;
+  position:relative;
 	
 	justify-content: center;
 	align-items: stretch;

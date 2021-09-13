@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const ContactWrapper = styled.div`
+position:relative;
  display: grid; 
   grid-template-columns: 1fr 1fr; 
   grid-template-rows: 1fr; 

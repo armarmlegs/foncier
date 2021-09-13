@@ -13,7 +13,7 @@ import {
   SocialMedia,
   SocialMediaWrapper,
   SocialLogo,
-  WebsiteRights,
+  // WebsiteRights,
   SocialIcons,
   SocialIconLink,
   FooterLogo,
@@ -49,9 +49,9 @@ const Footer = () => {
                 <FooterLogo src={logo} alt="wassup" />
               </SocialLogo>
 
-              <WebsiteRights>
+              {/* <WebsiteRights>
                 Wassup Haters © {new Date().getFullYear()} All RIGHTS RESERVED
-              </WebsiteRights>
+              </WebsiteRights> */}
               <SocialIcons>
                 <SocialIconLink
                   href="//www.facebook.com"

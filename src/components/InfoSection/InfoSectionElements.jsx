@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 export const InfoSec = styled.div`
 color: #000;
 padding:160px 0;
+
 width:100%;
 background: ${({ lightBg }) => (lightBg ? '#fff' : "black") };
 
@@ -122,7 +123,7 @@ height:100%;
 
   export const ButtonWraps = styled(Link)`
   
-  padding-top:120px;
+  padding-top:40px;
   display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
