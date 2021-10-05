@@ -132,6 +132,7 @@ export const SocialLogo = styled(Link)`
 
 export const WebsiteRights = styled.small`
   color: #000;
+  font-size:15px;
   margin-bottom: 16px;
   padding-left: 20px;
   text-align:center;
@@ -139,6 +140,7 @@ export const WebsiteRights = styled.small`
  
 
   @media screen and (max-width: 860px) {
+    font-size:12px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -163,7 +165,7 @@ export const SocialIcons = styled.div`
 
 export const SocialIconLink = styled.a`
   color: #000;
-  font-size: 14px;
+  font-size: 20px;
 
   &:hover {
     color: #fff;

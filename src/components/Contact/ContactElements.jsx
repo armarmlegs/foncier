@@ -9,12 +9,13 @@ position:relative;
   grid-template-areas: 
     ". ."; 
   justify-items: center; 
+  padding-top:80px;
   width: 100%; 
   height: 100%; 
   max-width:1000px;
   @media screen and (max-width: 960px) {
     width: 100%;
-    height:1000px;
+    height:100%;
    
 
     transition: 0.2s all ease;
@@ -111,6 +112,7 @@ export const ContactLabel = styled.label`
 
 export const ContactInput = styled.input`
   font-weight: 500;
+  width:100%;
   border: none;
   border-bottom: 1px solid black;
   outline: none;
@@ -119,6 +121,7 @@ export const ContactInput = styled.input`
 `;
 export const ContactArea = styled.textarea`
   font-weight: 500;
+  width:100%;
   border: none;
   border-bottom: 1px solid black;
   outline: none;

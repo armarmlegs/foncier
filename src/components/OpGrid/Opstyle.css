@@ -1,0 +1,110 @@
+.container {
+  padding-top: 10px;
+  padding-bottom: 80px;
+}
+
+.wrappy {
+  position: relative;
+  display: inline-block;
+}
+
+.vignettes {
+  /* display: block; */
+  height: 300px;
+  width: 100%;
+  /* cursor: pointer; */
+  padding-top: 15px;
+  object-fit: cover;
+  overflow: none;
+}
+
+.imgLayer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  color: black;
+  visibility: hidden;
+
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.2s, visibility 0.2s;
+}
+
+.wrappy:hover .imgLayer {
+  visibility: visible;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.wrappy:active {
+  visibility: visible;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.opName {
+  color:#cb997e;
+  transition: 0.2s;
+  transform: translateY(1em);
+  text-align: center;
+  border-top: 1px solid ;
+  border-bottom: 1px solid ;
+  font-size: 40px;
+  width: 100%;
+  padding: 15px;
+  background: white;
+}
+
+.wrappy:hover .opName {
+  transform: translateY(0);
+}
+
+/* .vignettes */
+
+.youngContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: baseline;
+  align-content: flex-start;
+  padding: 20px 0;
+  padding-bottom: 90px;
+}
+
+.lostInTranslation {
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+
+.lego {
+  padding: 10px 100px;
+  
+  color:#9b887e;
+  text-align: center;
+  visibility:hidden;
+  font-weight: 200;
+
+  
+}
+
+.lego:hover{
+  color:#eddcd2
+}
+
+
+@media (max-width:900px){
+  .lego{
+     visibility:visible;
+
+  }}

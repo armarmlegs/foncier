@@ -11,6 +11,9 @@ import {
   OpRow,
 } from "./JulesElements";
 import {PicsJulesFerry} from '../../components/GridData';
+import {PicsJulesFerry2ndFloor} from '../../components/GridData';
+import {PicsJulesFerryTriplex} from '../../components/GridData';
+
 
 
 import { Container } from "../../globalStyles";
@@ -23,11 +26,12 @@ const JulesFerry = () => {
         <OpRow>
           <OpColumn1>
             <OpTextWrapper>
+              
+              <OpHeading>Jules-Ferry 2016-2021 Boulogne-Billancourt</OpHeading>
               <OpTopLine>
                 Architecte et Maitre d’œuvre : Space Architectes x Sandrine
                 Queiroz
               </OpTopLine>
-              <OpHeading>Jules-Ferry 2016-2021 Boulogne-Billancourt</OpHeading>
               <OpSubtitle>
                 Réhabilitation totale et surélévation d’un immeuble R+2 en R+5,
                 les 3 étages supplémentaires ont été construits sur la carcasse
@@ -46,8 +50,12 @@ const JulesFerry = () => {
         <VideoBg autoPlay muted loop src={Video} />
         </div>
       </Container>
-
+        <OpTopLine>1er Etage</OpTopLine>
       <GridGallery dataImg={PicsJulesFerry} />
+        <OpTopLine>2nd Etage</OpTopLine>
+      <GridGallery dataImg={PicsJulesFerry2ndFloor} />
+        <OpTopLine>Triplex</OpTopLine>
+      <GridGallery dataImg={PicsJulesFerryTriplex} />
     </>
   );
 };

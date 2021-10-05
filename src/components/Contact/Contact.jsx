@@ -51,9 +51,9 @@ const Contact = () => {
       </ImageWrapper>
       <ContactRight>
         <ContactH1> Contact</ContactH1>
-        <ContactP>
+        {/* <ContactP>
           Lorem ipsum dolor sit amet consectetur adipisicing elit.{" "}
-        </ContactP>
+        </ContactP> */}
         <ContactFormX onSubmit={sendEmail}>
          <ContactInput  type="hidden" name="contact_number" />
          <ContactLabel >Nom : </ContactLabel>

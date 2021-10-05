@@ -14,7 +14,7 @@ import imgDD from "../Images/Photos Site Fonciere/Malesherbes/IMG_1428.jpg";
 import imgEE from "../Images/Photos Site Fonciere/Malesherbes/IMG_1429.jpg";
 import imgFF from "../Images/Photos Site Fonciere/Malesherbes/IMG_1434.jpg";
 import imgGG from "../Images/Photos Site Fonciere/Malesherbes/IMG_1431.jpg";
-import imgHH from "../Images/Photos Site Fonciere/Malesherbes/IMG_1432.jpg";
+import imgHH from "../Images/Photos Site Fonciere/Malesherbes/IMG_1415.jpg";
 import imgII from "../Images/Photos Site Fonciere/Malesherbes/IMG_1433.jpg";
 
 //Hell on earth
@@ -25,11 +25,12 @@ import imgLL from "../Images/Photos Site Fonciere/Jules-Ferry/1er étage/IMG_272
 import imgMM from "../Images/Photos Site Fonciere/Jules-Ferry/1er étage/IMG_2723.jpg";
 import imgNN from "../Images/Photos Site Fonciere/Jules-Ferry/2ème étage/IMG_2707.jpg";
 import imgOO from "../Images/Photos Site Fonciere/Jules-Ferry/2ème étage/IMG_2709.jpg";
-import imgPP from "../Images/Photos Site Fonciere/Jules-Ferry/2ème étage/IMG_2711.jpg";
-import imgQQ from "../Images/Photos Site Fonciere/Jules-Ferry/2ème étage/IMG_2713.jpg";
-import imgRR from "../Images/Photos Site Fonciere/Jules-Ferry/3-4-5ème étage Triplex/DSCN1672.JPG";
-import imgSS from "../Images/Photos Site Fonciere/Jules-Ferry/3-4-5ème étage Triplex/DSCN1685.JPG";
-import imgTT from "../Images/Photos Site Fonciere/Jules-Ferry/3-4-5ème étage Triplex/DSCN1695.JPG";
+import imgPP from "../Images/Photos Site Fonciere/Jules-Ferry/2ème étage/IMG_2703 (1).jpg";
+import imgQQ from "../Images/Photos Site Fonciere/Jules-Ferry/2ème étage/IMG_2717.jpg";
+import imgRR from "../Images/Photos Site Fonciere/Jules-Ferry/3-4-5ème étage Triplex/20200618_143142.jpg";
+import imgSS from "../Images/Photos Site Fonciere/Jules-Ferry/3-4-5ème étage Triplex/20200618_143337.jpg";
+import imgTT from "../Images/Photos Site Fonciere/Jules-Ferry/3-4-5ème étage Triplex/DSCN1699.JPG";
+import imgWW from "../Images/Photos Site Fonciere/Jules-Ferry/3-4-5ème étage Triplex/DSCN1679.JPG"
 import imgUU from "../Images/Photos Site Fonciere/Jules-Ferry/Exterieurs/20200618_133929.jpg";
 import imgVV from "../Images/Photos Site Fonciere/Jules-Ferry/Parties communes/DSCN1689.JPG";
 
@@ -106,62 +107,85 @@ export const PicsMalsherbes = [
   export const PicsJulesFerry = [
     {
       id: 1,
-      img: imgAA,
-    },
-    {
-      id: 2,
-      img: imgBB,
-    },
-    {
-      id: 3,
       img: imgJJ,
     },
     {
-      id: 4,
+      id: 2,
       img: imgKK,
     },
     {
-      id: 5,
+      id: 3,
       img: imgLL,
     },
     {
-      id: 6,
+      id: 4,
       img: imgMM,
     },
+    
+    
+    
+  ];
+  export const PicsJulesFerry2ndFloor = [
     {
-      id: 7,
+      id: 1,
       img: imgNN,
     },
     {
-      id: 8,
+      id: 2,
       img: imgOO,
     },
     {
-      id: 9,
+      id: 3,
       img: imgPP,
     },
     {
-      id: 10,
+      id: 4,
       img: imgQQ,
     },
+    
+    
+    
+  ];
+  export const PicsJulesFerryTriplex = [
     {
-      id: 11,
+      id: 1,
       img: imgRR,
     },
     {
-      id: 12,
+      id: 2,
       img: imgSS,
     },
     {
-      id: 13,
+      id: 3,
       img: imgTT,
     },
     {
-      id: 14,
-      img: imgUU,
+      id: 4,
+      img: imgWW,
     },
-    {
-      id: 15,
-      img: imgVV,
-    },
+    
+    
+    
   ];
+
+
+  export const PicsOperation = [
+    {
+    id:"A",
+    img:imgUU,
+    imageLink:"Operations/Malsherbes",
+    name:"Malsherbes"
+  },
+    {
+    id:"B",
+    img:imgF,
+    imageLink:"Operations/Lacroix",
+    name:"Lacroix"
+  },
+    {
+    id:"C",
+    img:imgHH,
+    imageLink:"Operations/JulesFerry",
+    name:"Ferry"
+  }
+]

@@ -21,10 +21,11 @@ const Lacroix = () => {
         <OpRow>
           <OpColumn1>
             <OpTextWrapper>
+              
+              <OpHeading>Lacroix 2014-2015 Paris 17</OpHeading>
               <OpTopLine>
                 Architecte et Maître d’œuvre : Sandrine Queiroz
               </OpTopLine>
-              <OpHeading>Lacroix 2014-2015 Paris 17</OpHeading>
               <OpSubtitle>
               Réhabilitation d’un studio photo de 30m² en un appartement 2 pièces, vendus achevés, clés en main.
               </OpSubtitle>

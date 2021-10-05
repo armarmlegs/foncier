@@ -57,9 +57,11 @@ export const OpTextWrapper = styled.div`
   max-width: auto;
   padding-top: 70px;
   padding-bottom: 30px;
+  
 `;
 
 export const OpTopLine = styled.p`
+/* padding: 0 24px; */
 margin-top:40px;
   color: #6b705c;
   font-size: 16px;
@@ -68,16 +70,17 @@ margin-top:40px;
   letter-spacing: 1.4px;
   text-transform: uppercase;
   margin-bottom: 16px;
+  padding: 0 15px;
  
 `;
 
 export const OpHeading = styled.h1`
-
+  padding-top:40px;
   margin-bottom: 24px;
   font-size: 48px;
   line-height: 1.1;
   font-weight: 600;
-  color: #cb997e;
+  color: #9b887e;
 
   @media screen and (max-width: 480px) {
     font-size: 32px;
@@ -94,14 +97,19 @@ height:100%;
   display: inline-block;
   max-height: 100%;
   padding-bottom:30px;
-  border:1px solid black;`;
+`;
 
 export const OpSubtitle = styled.p`
-  max-width: 440px;
+  /* max-width: 440px; */
+  max-width:100%;
   margin-bottom: 35px;
   font-size: 18px;
   line-height: 24px;
   color: #010606;
+
+  @media screen and (max-width: 480px) {
+    max-width: 440px;
+  }
 `;
 
 

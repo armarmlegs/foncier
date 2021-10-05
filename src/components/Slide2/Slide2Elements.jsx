@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 
-export const LinkContainer = styled(Link)`
+export const LinkContainer = styled.div`
 display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;

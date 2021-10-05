@@ -1,8 +1,8 @@
 import React from "react";
 
-import img1 from "../../Images/Photos Site Fonciere/Lacroix/IMG_4047.JPG"
-import img2 from "../../Images/Photos Site Fonciere/Malesherbes/IMG_1419.jpg";
-import img3 from "../../Images/Photos Site Fonciere/Jules-Ferry/3-4-5ème étage Triplex/20200618_144307.jpg";
+import img3 from "../../Images/Photos Site Fonciere/Lacroix/IMG_4049.JPG"
+import img2 from "../../Images/Photos Site Fonciere/Malesherbes/IMG_1418.jpg";
+import img1 from "../../Images/Photos Site Fonciere/Jules-Ferry/3-4-5ème étage Triplex/20200618_144307.jpg";
 import "bootstrap/dist/css/bootstrap.css";
 import {Carousel} from 'react-bootstrap'
 import "./Slide.css";
@@ -20,11 +20,11 @@ const Sliderz = () => {
   return (
     <div className="containerSlide">
        
-       <Carousel className="active">
+       <Carousel fade >
   <Carousel.Item>
     <img
       className="coup"
-      src={img1}
+      src={img2}
       alt="First slide"
     />
     <Carousel.Caption>
@@ -38,7 +38,7 @@ const Sliderz = () => {
   <Carousel.Item>
     <img
       className="coup"
-      src={img3}
+      src={img1}
       alt="Second slide"
     />
 
@@ -53,7 +53,7 @@ const Sliderz = () => {
   <Carousel.Item>
     <img
       className="coup"
-      src={img2}
+      src={img3}
       alt="Third slide"
     />
 

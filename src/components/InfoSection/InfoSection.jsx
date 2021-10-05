@@ -15,8 +15,9 @@ const InfoSection = ({lightBg,buttonTo , lightTopLine, lightTextDesc, topLine, l
                 <InfoRow >
                 <InfoColumn>
                     <TextWrapper>
-                        <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
+                    <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                         <Heading lightText={lightText}>{headLine}</Heading>
+                        
                         <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
                         
 

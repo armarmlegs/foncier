@@ -13,6 +13,8 @@
  .gallery .pics{
     
      transition: all 350ms ease;
+     height:350px;
+   width:350px;
      cursor:pointer;
      margin-bottom:12px
     ;
@@ -21,7 +23,9 @@
 
  .gallery .pics:hover{
 filter: opacity(.8 );
-transform:scale(1.05);
+transform:scale(1.1);
+transition:0.5s ease;
+z-index:10;
 
  }
 
