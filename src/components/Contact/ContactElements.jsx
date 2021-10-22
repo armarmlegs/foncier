@@ -11,8 +11,10 @@ position:relative;
   justify-items: center; 
   padding-top:80px;
   width: 100%; 
-  height: 100%; 
-  max-width:1000px;
+  min-height: 1300px;
+  
+   
+  /* max-width:1536px; */
   @media screen and (max-width: 960px) {
     width: 100%;
     height:100%;

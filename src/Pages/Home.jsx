@@ -6,7 +6,7 @@ import React from "react";
 import NavBar from "../components/navbar/NavBar";
 import Intro from "../components/Intro/Intro";
 import Epilogue from "../components/Intro2/Epilogue";
-import Sliderz from "../components/Slide2/Slide2";
+// import Sliderz from "../components/Slide2/Slide2";
 // import { SliderData } from '../components/slider/SliderData';
 
 const Home = () => {
@@ -16,7 +16,7 @@ const Home = () => {
       <Intro />
 
       <Epilogue />
-      <Sliderz />
+      {/* <Sliderz /> */}
       {/* <InfoSection {...homeObjOne}/> */}
 
       {/* <Slider slides={SliderData} /> */}

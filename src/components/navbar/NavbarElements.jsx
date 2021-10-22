@@ -4,13 +4,15 @@ import { Link } from "react-router-dom";
 
 export const Navbar = styled.div`
   margin-bottom: 10px;
+  
+  
 
-  background: #6b705c;
+  background: #8ca1a5;
   width: 100%;
   height: 80px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  /* align-items: center; */
   font-size: 25px;
   position: fixed;
   top: 0;
@@ -19,14 +21,14 @@ export const Navbar = styled.div`
 
 export const NavContainer = styled(Container)`
 
-
   display: flex;
   justify-content: space-between;
-  align-items:center;
+  align-items: center;
+ width:1536px;
 
   height: 80px;
 
-  ${Container}
+ 
 `;
 
 export const NavLogo = styled(Link)`
@@ -60,14 +62,12 @@ export const MobileIcon = styled.div`
 `;
 
 export const NavMenu = styled.ul`
-
-
   /* display:flex;
 align-items:center; */
   list-style: none;
   /* text-align:center; */
   display: flex;
-  
+
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -78,13 +78,13 @@ align-items:center; */
     display: flex;
     flex-direction: column;
     width: 100%;
-    height:750px;
+    height: 100vh;
     position: absolute;
     top: 80px;
     left: ${({ click }) => (click ? 0 : "-100%")};
     opacity: 1;
     transition: all 0.5s ease;
-    background: #a5a58d;
+    background: #8CA1A5;
   }
 `;
 
@@ -105,6 +105,7 @@ export const NavItems = styled.li`
 `;
 
 export const NavLinks = styled(Link)`
+
   color: #000;
   display: flex;
   cursor: pointer;
@@ -132,6 +133,7 @@ export const NavLinks = styled(Link)`
 `;
 
 export const NavItemBtn = styled.li`
+
   @media screen and (max-width: 960px) {
     display: flex;
     justify-content: center;
@@ -142,13 +144,13 @@ export const NavItemBtn = styled.li`
 `;
 
 export const YoungDiv = styled.div`
-width:100%;
-height:600px;
+  width: 100%;
+  height: 100%;
 
-display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	align-items: center;
-	align-content: center;
-`
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+`;

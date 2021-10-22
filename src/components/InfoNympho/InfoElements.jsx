@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const InfoContainer = styled.div`
   color: #fff;
   background: #f9F9F9;
+  
 
   @media screen and (max-width:768px) {
     padding: 100px 0;
@@ -11,6 +12,7 @@ export const InfoContainer = styled.div`
 
 export const InfoWrapper = styled.div`
   display: grid;
+
   z-index: 1;
   height: 800px;
   width: 100%;

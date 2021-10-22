@@ -12,38 +12,32 @@ const GridGallery = ({ dataImg }) => {
   const [tempImgSrc, setTempImgSrc] = useState("");
 
   const getImg = (img) => {
-
     setTempImgSrc(img);
     setModel(true);
-    
   };
 
-  
-
   return (
-    <Container>
-      {/* <GridContainer> */}
-      <div className={ model ? "model open" : "model" } onClick={()=>{setModel(false)}}>
-        <img src={tempImgSrc} alt='helloKitty' />
-        {/* <IconWrapper>
-        <FaWindowClose onClick={()=>{setModel(false)}} />
-        </IconWrapper> */}
-
-
+    <>
+      <div
+        className={model ? "model open" : "model"}
+        onClick={() => {
+          setModel(false);
+        }}
+      >
+        <img src={tempImgSrc} alt="helloKitty" />
+       
+      </div> 
+      <div className="gallery">
+        {dataImg.map((item, index) => {
+          return (
+            <div className="pics" key={index} onClick={() => getImg(item.img)}>
+              <img src={item.img} alt={item.id} style={{ width: "100%" }} />
+            </div>
+          );
+        })}
       </div>
-      <ImageList rowHeight={200} gap={6} className="gallery">
-        {dataImg.map((item) => (
-          <ImageListItem
-            className="pics"
-            key={item.img}
-            onClick={() => getImg(item.img)}
-          >
-            <img src={item.img} alt={item.id} />
-          </ImageListItem>
-        ))}
-      </ImageList>
-      {/* </GridContainer> */}
-    </Container>
+     
+    </>
   );
 };
 

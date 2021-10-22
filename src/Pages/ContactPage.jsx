@@ -1,6 +1,6 @@
 import React from 'react'
 import Contact from "../components/Contact/Contact"
-import NavBar2 from "../components/navbar2/Navbar3"
+import NavBar2 from "../components/navbar/NavBar"
 
 
 

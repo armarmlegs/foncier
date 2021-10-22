@@ -24,36 +24,43 @@ const NavBar2 = () => {
 
   return (
     <>
-    <Container>
-      <IconContext.Provider value={{ color: "000" }}>
-        <Navbar>
-          <NavContainer>
-            <NavLogo to="/">
-              <NavIcon src={logo} />
-            </NavLogo>
-            <MobileIcon onClick={handleClick}>
-              {click ? <FaTimes /> : <FaBars />}
-            </MobileIcon>
-             
-            <NavMenu onClick={handleClick} click={click}>
-            <YoungDiv>
-              <NavItems>
-                <NavLinks onClick={handleClick} click={click} to="/">Accueil</NavLinks>
-              </NavItems>
-              <NavItems>
-                <NavLinks onClick={handleClick} click={click} to="/Operations">Opérations</NavLinks>
-              </NavItems>
-              <NavItemBtn to="/Contact">
+      <Container>
+        <IconContext.Provider value={{ color: "000" }}>
+          <Navbar>
+            <NavContainer>
+              <NavLogo to="/">
+                <NavIcon src={logo} />
+              </NavLogo>
+              <MobileIcon onClick={handleClick}>
+                {click ? <FaTimes /> : <FaBars />}
+              </MobileIcon>
 
-              <Button to="/Contact" primary="false">
-                  Contact
-                </Button>
-                </NavItemBtn>
+              <NavMenu onClick={handleClick} click={click}>
+                <YoungDiv>
+                  <NavItems>
+                    <NavLinks onClick={handleClick} click={click} to="/">
+                      Accueil
+                    </NavLinks>
+                  </NavItems>
+                  <NavItems>
+                    <NavLinks
+                      onClick={handleClick}
+                      click={click}
+                      to="/Operations"
+                    >
+                      Opérations
+                    </NavLinks>
+                  </NavItems>
+                  <NavItemBtn to="/Contact">
+                    <Button to="/Contact" primary="false">
+                      Contact
+                    </Button>
+                  </NavItemBtn>
                 </YoungDiv>
-            </NavMenu>
-          </NavContainer>
-        </Navbar>
-      </IconContext.Provider>
+              </NavMenu>
+            </NavContainer>
+          </Navbar>
+        </IconContext.Provider>
       </Container>
     </>
   );

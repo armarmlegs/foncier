@@ -4,6 +4,8 @@ import styled from "styled-components";
 export const EpiContainer = styled.div`
   color: #fff;
   background: #f9F9F9;
+  min-height:800px;
+  padding-top:100px;
 
   @media screen and (max-width:768px) {
     padding: 100px 0;

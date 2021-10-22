@@ -172,7 +172,7 @@ export const PicsMalsherbes = [
   export const PicsOperation = [
     {
     id:"A",
-    img:imgUU,
+    img:imgHH,
     imageLink:"Operations/Malsherbes",
     name:"Malsherbes"
   },
@@ -184,7 +184,7 @@ export const PicsMalsherbes = [
   },
     {
     id:"C",
-    img:imgHH,
+    img:imgUU,
     imageLink:"Operations/JulesFerry",
     name:"Ferry"
   }

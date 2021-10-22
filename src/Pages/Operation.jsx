@@ -1,6 +1,5 @@
 import React from "react";
-import InfoSection from "../components/InfoSection/InfoSection";
-import { Link } from 'react-router-dom'
+
 
 
 // import {

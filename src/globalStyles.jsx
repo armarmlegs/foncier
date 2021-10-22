@@ -10,15 +10,22 @@ const GlobalStyle = createGlobalStyle`
     margin:0;
     padding:0;
    
+   
   
     
 }`
 
 export const Container = styled.div`
+
 z-index:1;
-width:100%;
-/* max-width:1300px; */
-/* margin-right:auto;
+/* width:100%; */
+/* min-height:1536px; */
+
+max-width:1536px;
+
+
+
+ /* margin-right:auto;
 margin-left: auto; */
 
 /* padding-right:15px;

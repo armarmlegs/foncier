@@ -1,5 +1,5 @@
 import React from "react";
-import { Container } from "../../globalStyles";
+// import { Container } from "../../globalStyles";
 
 
 
@@ -44,7 +44,7 @@ const Contact = () => {
 
 
   return (
-    <Container>
+    
     <ContactWrapper>
       <ImageWrapper>
       <ContactLeft src={background} />
@@ -66,8 +66,9 @@ const Contact = () => {
        </ContactFormX>
      
       </ContactRight>
+      <div></div>
     </ContactWrapper>
-    </Container>
+    
   );
 };
 

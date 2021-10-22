@@ -31,4 +31,5 @@ text-align:center;
 `
 
 export const BigContainer = styled.div`
-background:#f9F9F9;`
+background:#f9F9F9;
+border:1px solid red;`

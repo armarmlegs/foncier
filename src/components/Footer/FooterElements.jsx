@@ -2,28 +2,32 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const FooterContainer = styled.footer`
-  background-color: #6b705c;
-  width:100%;
-  height:90px;
+  background-color: #8ca1a5;
+ 
+  /* position:relative; */
+  width: 100%;
+  height: 90px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 
-
-  @media screen and (max-width:750px){
-    height:100px;
+  @media screen and (max-width: 750px) {
+    height: 100px;
   }
-  
 `;
 
 export const FooterWrapper = styled.div`
-  
-  
   width: 100%;
 
-  max-width: 100%;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  max-width: 1536px;
+  margin: 0;
 `;
 
 export const FooterLinksContainer = styled.div`
@@ -90,7 +94,6 @@ export const FooterLink = styled(Link)`
 export const SocialMedia = styled.section`
   max-width: 1300px;
   width: 100%;
-  
 `;
 
 export const SocialMediaWrapper = styled.div`
@@ -122,7 +125,7 @@ export const SocialLogo = styled(Link)`
     transition: 0.3s ease-in-out;
   }
 
-    @media screen and (max-width: 760px) {
+  @media screen and (max-width: 760px) {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -132,15 +135,14 @@ export const SocialLogo = styled(Link)`
 
 export const WebsiteRights = styled.small`
   color: #000;
-  font-size:15px;
+  font-size: 15px;
   margin-bottom: 16px;
   padding-left: 20px;
-  text-align:center;
+  text-align: center;
   width: 100%;
- 
 
   @media screen and (max-width: 860px) {
-    font-size:12px;
+    font-size: 12px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -151,7 +153,7 @@ export const WebsiteRights = styled.small`
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size:9px;
+    font-size: 9px;
     width: 200px;
   }
 `;

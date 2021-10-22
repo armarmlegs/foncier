@@ -5,6 +5,9 @@ import styled from "styled-components";
 export const OpContainer = styled.div`
   color: #fff;
   background: #f9F9F9;
+  width:100%;
+  height:100%;
+  
 
   @media screen and (max-width:768px) {
     padding: 100px 0;
@@ -62,15 +65,15 @@ export const OpTextWrapper = styled.div`
 
 export const OpTopLine = styled.p`
 /* padding: 0 24px; */
-margin-top:40px;
-  color: #6b705c;
-  font-size: 16px;
+  margin-top:40px;
+  color: #316B83;
+  font-size: 12px;
   line-height: 16px;
-  font-weight: 700;
+  font-weight: 300;
   letter-spacing: 1.4px;
   text-transform: uppercase;
   margin-bottom: 16px;
-  padding: 0 15px;
+  /* padding: 0 15px; */
  
 `;
 
@@ -80,7 +83,7 @@ export const OpHeading = styled.h1`
   font-size: 48px;
   line-height: 1.1;
   font-weight: 600;
-  color: #9b887e;
+  color: #6D8299;
 
   @media screen and (max-width: 480px) {
     font-size: 32px;
@@ -103,12 +106,13 @@ export const OpSubtitle = styled.p`
   /* max-width: 440px; */
   max-width:100%;
   margin-bottom: 35px;
-  font-size: 18px;
+  font-size: 24px;
   line-height: 24px;
   color: #010606;
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 700px) {
     max-width: 440px;
+    font-size: 20px;
   }
 `;
 
