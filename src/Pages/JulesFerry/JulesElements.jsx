@@ -7,7 +7,7 @@ export const OpContainer = styled.div`
   background: #f9F9F9;
   width:100%;
   height:100%;
-  
+  border:1px solid red;
 
   @media screen and (max-width:768px) {
     padding: 100px 0;
@@ -105,9 +105,9 @@ height:100%;
 export const OpSubtitle = styled.p`
   /* max-width: 440px; */
   max-width:100%;
-  margin-bottom: 35px;
-  font-size: 24px;
-  line-height: 24px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  line-height: 20px;
   color: #010606;
 
   @media screen and (max-width: 700px) {

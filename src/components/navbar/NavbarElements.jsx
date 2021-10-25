@@ -9,7 +9,7 @@ export const Navbar = styled.div`
 
   background: #8ca1a5;
   width: 100%;
-  height: 80px;
+  
   display: flex;
   justify-content: space-between;
   /* align-items: center; */
@@ -17,6 +17,7 @@ export const Navbar = styled.div`
   position: fixed;
   top: 0;
   z-index: 999;
+  
 `;
 
 export const NavContainer = styled(Container)`
@@ -24,7 +25,7 @@ export const NavContainer = styled(Container)`
   display: flex;
   justify-content: space-between;
   align-items: center;
- width:1536px;
+
 
   height: 80px;
 

@@ -14,6 +14,7 @@ const OpGrid = ({ dataImg }) => {
             <Link to={item.imageLink}>
               
                 <img className="vignettes" src={item.img} alt={item.id} />
+                <div className="carte"> vendu</div>
                 
                 <div className="imgLayer">
                 <p className="opName">{item.name}</p>

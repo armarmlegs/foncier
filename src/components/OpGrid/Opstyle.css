@@ -4,6 +4,8 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+ 
+ 
 
   padding-bottom: 100px;
   /* min-height: 1200px; */
@@ -14,6 +16,7 @@
 }
 
 .wrappy {
+  
   height: 100%;
   position: relative;
   display: flex;
@@ -27,6 +30,7 @@
 
 .vignettes {
   /* display: block; */
+  position:relative;
   height: 500px;
   width: 100%;
   /* margin-right: 50px;
@@ -34,6 +38,14 @@
   object-fit: cover;
 
   cursor: pointer;
+}
+
+.carte{
+  position:absolute;
+  top:0;
+  right:0;
+  background-color:REd;
+  color:white;
 }
 
 .imgLayer {
@@ -75,7 +87,7 @@
 }
 
 .opName {
-  color:#D5BFBF;
+  color:#6D8299;;
   
   transition: 0.2s;
   transform: translateY(1em);
@@ -132,5 +144,5 @@
 }
 
 .ghostdiv {
-  padding-bottom: 40px;
+  margin-bottom: 40px;
 }

@@ -2,10 +2,13 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const FooterContainer = styled.footer`
+box-sizing:border-box;
   background-color: #8ca1a5;
- 
+
+  /* width: 100%; */
+
   /* position:relative; */
-  width: 100%;
+
   height: 90px;
   display: flex;
   flex-direction: row;
@@ -18,15 +21,16 @@ export const FooterContainer = styled.footer`
 `;
 
 export const FooterWrapper = styled.div`
+  box-sizing:border-box;
   width: 100%;
-
+ 
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around;
   align-items: center;
   align-content: center;
-  max-width: 1536px;
+ 
   margin: 0;
 `;
 
@@ -92,7 +96,8 @@ export const FooterLink = styled(Link)`
 `;
 
 export const SocialMedia = styled.section`
-  max-width: 1300px;
+
+  /* max-width: 1300px; */
   width: 100%;
 `;
 

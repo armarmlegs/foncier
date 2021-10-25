@@ -12,13 +12,14 @@ import {
 } from "../JulesFerry/JulesElements";
 import { Pics } from "../../components/GridData";
 
-import { Container } from "../../globalStyles";
+// import { Container } from "../../globalStyles";
 
 const Lacroix = () => {
   return (
     <>
       <Navbar3 />
-      <Container>
+      {/* <Container> */}
+      <div>
         <OpRow>
           <OpColumn1>
             <OpTextWrapper>
@@ -35,7 +36,8 @@ const Lacroix = () => {
             </OpTextWrapper>
           </OpColumn1>
         </OpRow>
-      </Container>
+        </div>
+      {/* </Container> */}
 
       <GridGallery dataImg={Pics} />
       <div className="ghostdiv"></div>

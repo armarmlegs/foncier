@@ -4,9 +4,9 @@ export const IntroContainer = styled.div`
   display: flex;
   justify-self: center;
   align-items: center;
-  top: 30px;
+  top: 80px;
 
-  padding: 0 30px;
+  /* padding: 0 30px; */
 
   height: 500px;
   position: relative;

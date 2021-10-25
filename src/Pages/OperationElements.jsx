@@ -5,13 +5,14 @@ z-index:1;
 width:100%;
 
 
+
 /* max-width:1300px; */
 padding-top:40px;
   margin-bottom: 24px;
   font-size: 48px;
   line-height: 1.1;
   font-weight: 600;
-  color: #cb997e;
+  color:#8CA1A5;
 
 
 @media screen and (max-width:991px) {
