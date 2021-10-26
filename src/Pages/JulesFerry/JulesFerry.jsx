@@ -10,6 +10,8 @@ import {
   OpSubtitle,
   OpTopLine,
   OpRow,
+  VideoWrapper,
+  GridWrapper,
 } from "./JulesElements";
 import { PicsJulesFerry } from "../../components/GridData";
 import { PicsJulesFerry2ndFloor } from "../../components/GridData";
@@ -54,18 +56,20 @@ const JulesFerry = () => {
             </OpTextWrapper>
           </OpColumn1>
         </OpRow>
-        <div>
+        <VideoWrapper>
           <VideoBg autoPlay muted loop src={Video} />
-        </div>
-
+        </VideoWrapper>
+        <GridWrapper> 
         <OpTopLine>1er Etage</OpTopLine>
         <GridGallery dataImg={PicsJulesFerry} />
         <OpTopLine>2nd Etage</OpTopLine>
         <GridGallery dataImg={PicsJulesFerry2ndFloor} />
         <OpTopLine>Triplex</OpTopLine>
         <GridGallery dataImg={PicsJulesFerryTriplex} />
+        </GridWrapper>
       </div>
-      <div className="ghostdiv"></div>
+      {/* <div className="ghostdiv"></div> */}
+      
     </>
   );
 };

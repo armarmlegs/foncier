@@ -7,7 +7,7 @@ export const OpContainer = styled.div`
   background: #f9F9F9;
   width:100%;
   height:100%;
-  border:1px solid red;
+  
 
   @media screen and (max-width:768px) {
     padding: 100px 0;
@@ -67,13 +67,18 @@ export const OpTopLine = styled.p`
 /* padding: 0 24px; */
   margin-top:40px;
   color: #316B83;
-  font-size: 12px;
+  font-size: 20px;
   line-height: 16px;
-  font-weight: 300;
+  font-weight: 600;
   letter-spacing: 1.4px;
   text-transform: uppercase;
   margin-bottom: 16px;
   /* padding: 0 15px; */
+
+
+  @media screen and (max-width:768px) {
+    font-size:10px;
+  }
  
 `;
 
@@ -90,12 +95,16 @@ export const OpHeading = styled.h1`
   }
 `;
 
-export const VideoBg = styled.video`
-padding-right: 0;
+export const VideoWrapper = styled.div`
+`
 
+export const VideoBg = styled.video`
+/* padding-right: 0; */
+width:100%;
 height:100%;
   /* border: 0; */
-  max-width: 100%;
+ 
+  
   vertical-align: middle;
   display: inline-block;
   max-height: 100%;
@@ -105,25 +114,34 @@ height:100%;
 export const OpSubtitle = styled.p`
   /* max-width: 440px; */
   max-width:100%;
-  margin-bottom: 10px;
-  font-size: 15px;
-  line-height: 20px;
+  margin-bottom: 3px;
+  font-size: 20px;
+  line-height: 15px;
   color: #010606;
 
   @media screen and (max-width: 700px) {
     max-width: 440px;
-    font-size: 20px;
+    font-size: 15px;
   }
 `;
 
 
 
 export const OpImgWrap = styled.div`
-
+border:1px solid red;
   max-width: 555px;
   height: 80%;
 
  
 `;
+
+export const GridWrapper = styled.div`
+/* min-height:970px; */
+padding-bottom:20px;
+
+
+
+
+`
 
 

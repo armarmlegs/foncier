@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar3 from "../../components/navbar/NavBar";
 import GridGallery from "../../components/GridGallery";
-import "../../components/OpGrid/Opstyle.css"
+// import "../../components/OpGrid/Opstyle.css"
 import {
   OpColumn1,
   OpHeading,
@@ -9,6 +9,7 @@ import {
   OpSubtitle,
   OpTopLine,
   OpRow,
+  GridWrapper,
 } from "../JulesFerry/JulesElements";
 import { PicsMalsherbes } from "../../components/GridData";
 
@@ -35,8 +36,9 @@ const Malsherbes = () => {
           </OpColumn1>
         </OpRow>
       </Container>
-
+      <GridWrapper>
       <GridGallery dataImg={PicsMalsherbes} />
+      </GridWrapper>
       <div className="ghostdiv"></div>
     </>
   );

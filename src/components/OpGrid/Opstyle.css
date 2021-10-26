@@ -144,5 +144,7 @@
 }
 
 .ghostdiv {
-  margin-bottom: 40px;
+  padding-bottom: 100px;
+  
+  min-height:100%
 }

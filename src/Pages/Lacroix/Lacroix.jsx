@@ -9,6 +9,7 @@ import {
   OpSubtitle,
   OpTopLine,
   OpRow,
+  GridWrapper,
 } from "../JulesFerry/JulesElements";
 import { Pics } from "../../components/GridData";
 
@@ -18,9 +19,11 @@ const Lacroix = () => {
   return (
     <>
       <Navbar3 />
-      {/* <Container> */}
+      
       <div>
+      
         <OpRow>
+         
           <OpColumn1>
             <OpTextWrapper>
               <OpHeading>Lacroix 2014-2015 Paris 17</OpHeading>
@@ -36,11 +39,13 @@ const Lacroix = () => {
             </OpTextWrapper>
           </OpColumn1>
         </OpRow>
+       
         </div>
-      {/* </Container> */}
-
+      
+<GridWrapper>
       <GridGallery dataImg={Pics} />
       <div className="ghostdiv"></div>
+      </GridWrapper>
      
     </>
   );

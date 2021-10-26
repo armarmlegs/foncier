@@ -22,7 +22,7 @@ export const EpiWrapper = styled.div`
 	align-items: stretch;
 	align-content: stretch;
   z-index: 1;
-  height: 600px;
+  min-height: 800px;
   width: 100%;
   max-width: 1300px;
   margin-right: auto;
