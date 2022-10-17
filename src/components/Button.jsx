@@ -19,6 +19,7 @@ export const Button = styled(Link)`
   text-decoration: none;
   font-size: 40px;
   border:1px solid black;
+  margin-bottom: -10px;
 
   height: 30px;
 

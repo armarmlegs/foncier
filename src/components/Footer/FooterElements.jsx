@@ -8,12 +8,15 @@ box-sizing:border-box;
   /* width: 100%; */
 
   /* position:relative; */
-
-  height: 90px;
+  position:fixed;
+  bottom: 0;
+  width:100%;
+  max-height: 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  z-index: 1000;
 
   @media screen and (max-width: 750px) {
     height: 100px;
@@ -122,7 +125,7 @@ export const SocialLogo = styled(Link)`
   font-size: 1.5rem;
   display: flex;
   align-items: center;
-  margin-bottom: 16px;
+  margin-bottom: 0px;
   font-weight: bold;
 
   &:hover {
@@ -140,11 +143,13 @@ export const SocialLogo = styled(Link)`
 
 export const WebsiteRights = styled.small`
   color: #000;
-  font-size: 15px;
+  font-size: 20px;
+  font-weight: bold;
   margin-bottom: 16px;
   padding-left: 20px;
   text-align: center;
   width: 100%;
+  
 
   @media screen and (max-width: 860px) {
     font-size: 12px;
@@ -159,7 +164,9 @@ export const WebsiteRights = styled.small`
     justify-content: space-around;
     align-items: center;
     font-size: 9px;
-    width: 200px;
+    width: 150px;
+    margin-right: 30px;
+    margin-bottom:0px;
   }
 `;
 
@@ -167,7 +174,11 @@ export const SocialIcons = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 240px;
+  width: 140px;
+
+  @media screen and (max-width: 650px) {
+ width: 50%;
+  }
 `;
 
 export const SocialIconLink = styled.a`

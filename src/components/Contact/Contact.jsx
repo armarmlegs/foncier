@@ -1,10 +1,10 @@
-import React from "react";
+import React, {useRef} from "react";
 // import { Container } from "../../globalStyles";
 
 
 
 // import Sidebar from "../SideBar/index";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 import {
   ContactH1,
   ContactLeft,
@@ -19,17 +19,16 @@ import {
 } from "./ContactElements";
 import background from "../../Images/Photos Site Fonciere/Jules-Ferry/2ème étage/IMG_2707.jpg"
 import {Button2} from "../Button2";
-const serviceId = "service_zbztet6";
-const templateId = "template_xsdfrjk";
-const userId = "user_JL9GE8VrBLeAvhPzsvHB3";
-
+const serviceId = "service_344sra3";
+const templateId = "template_smm4j9q";
+const publicKey = "WfaWdnYFUC7f1p2e6";
+/*
 const Contact = () => {
  
   function sendEmail(e) {
-      console.log('wassup')
     e.preventDefault();
 
-    emailjs.sendForm(serviceId, templateId, e.target, userId)
+    emailjs.sendForm(serviceId, templateId, form.current, publicKey)
 
       .then((result) => {
           alert("email sent");
@@ -38,6 +37,24 @@ const Contact = () => {
       });
       e.target.reset()
   }
+
+*/
+
+  const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm(serviceId, templateId, form.current, publicKey)
+      .then((result) => {
+          alert("email envoyé");
+          console.log(result.status)
+      }, (error) => {
+          alert("une erreur empêche l'envoi de l'email");
+          console.log(error.text)
+      });
+  };
 
 
 
@@ -51,10 +68,7 @@ const Contact = () => {
       </ImageWrapper>
       <ContactRight>
         <ContactH1> Contact</ContactH1>
-        {/* <ContactP>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.{" "}
-        </ContactP> */}
-        <ContactFormX onSubmit={sendEmail}>
+        <ContactFormX  onSubmit={sendEmail} ref={form}>
          <ContactInput  type="hidden" name="contact_number" />
          <ContactLabel >Nom : </ContactLabel>
          <ContactInput  type="text" name="name" />
@@ -66,10 +80,10 @@ const Contact = () => {
        </ContactFormX>
      
       </ContactRight>
-      <div></div>
     </ContactWrapper>
     
   );
-};
+      };
+
 
 export default Contact;

@@ -4,6 +4,7 @@ import GlobalStyle from './globalStyles';
 import Home from "./Pages/Home"
 import ScrollTop from "./components/ScrollTop";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import React, {useEffect} from 'react';
 
 
 
@@ -19,6 +20,11 @@ import Malsherbes from './Pages/Malsherbes/Malsherbes';
 
 
 function App() {
+
+  useEffect(() => {
+    document.title = "Foncière Truffaut";  
+  }, []);
+
   return (
   <Router>
     <ScrollTop />
